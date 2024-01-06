@@ -1,0 +1,6 @@
+[workspace]
+members = ["introduction"]
+
+[workspace.dependencies]
+chrono = { version = "*" }
+polars = { version = "0.36.2", features = ["lazy"] }
